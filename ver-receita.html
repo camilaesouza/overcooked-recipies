@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Overcooked</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/my-css.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="icon" href="img/icon.png">
+</head>
+
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg bg-yellow text-light shadow">
+        <div class="container">
+            <a class="navbar-brand p-0" href="index.html">
+                <img src="img/logo.png" alt="logo" style="width:125px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mr-1">
+                        <a class="nav-link" href="index.html">
+                            <i class="bi bi-house-door"></i> Início
+                        </a>
+                    </li>
+                    <li class="nav-item mr-1">
+                        <a class="nav-link" href="receitas-index.html">
+                            <i class="bi bi-book"></i> Receitas
+                        </a>
+                    </li>
+                    <li class="nav-item mr-1">
+                        <a class="nav-link" href="relatorios.html">
+                            <i class="bi bi-bar-chart"></i> Relatórios
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
+                            <i class="bi bi-person-circle"></i> Perfil
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="perfil-usuário.html">Ver Perfil</a>
+                            <a class="dropdown-item" href="login.html">Login</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-muted" href="index.html">Sair</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <div class="container">
+        <div class="ml-3 mt-5">
+            <h3>Ver receita</h3>
+            <span class="text-muted">
+                <a class="header-link" href="index.html">Receitas</a> >
+                <a class="header-link" href="perfil-usuário.html">Ver receita</a>
+            </span>
+        </div>
+
+        <div class="card m-3 shadow">
+            <div class="card-header">
+                Receita
+            </div>
+            <div class="card-body">
+                <div class="d-flex col-12">
+                    <div class="col-8 justify-content-start">
+                        <h3>Risoto quatro queijos </h3>
+                        <span class="text-muted">Um delicioso jantar para dois</span>
+                    </div>
+                    <div class="col-4">
+                        <img src="img/card-recepies.jpeg" alt="recipe" style="width: 285px">
+                    </div>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <p><strong>Ingredientes</strong></p>
+                        <span style="font-size: 18px">1 litro de água</span>
+                        <br>
+                        <span style="font-size: 18px">1 caldo de legumes</span>
+                        <br>
+                        <span style="font-size: 18px">1 cebola</span>
+                        <br>
+                        <span style="font-size: 18px">500 gramas de arroz arbóreo</span>
+                        <br>
+                        <span style="font-size: 18px">100 gramas de queijo parmesão</span>
+                        <br>
+                        <span style="font-size: 18px">100 gramas de queijo mussarela</span>
+                        <br>
+                        <span style="font-size: 18px">100 gramas de queijo gorgonzola</span>
+                        <br>
+                        <span style="font-size: 18px">100 gramas de queijo minas</span>
+                        <br>
+                        <span style="font-size: 18px">Vinho branco</span>
+                    </div>
+
+                    <div class="col-md-12 mt-5">
+                        <p><strong>Modo de preparo:</strong></p>
+                        <p style="font-size: 18px">
+                            Enquanto isso refogue meia cebola bem picada com dois dentes de alho picados
+                            ( refogue no azeite ) e em seguida acrescente 1 xícara e meia de arroz arbóreo,
+                            acrescente uma pitada de sal e refogue por 2 minutos! Acrescente 150 ml de vinho
+                            branco seco e deixe evaporar, depois vá acrescentando o caldo ( quente ) aos
+                            poucos, concha por concha e mexendo até secar, não coloque o caldo de uma vez!
+                            Quando estiver al dente coloque os queijos ( 100 gramas de queijo parmesão,
+                            100 gramas de gorgonzola, 100 gramas de queijo minas e 100 gramas de muçarela)
+                            misture bem, se precisar de mais caldo coloque mais e misture, finalize com uma
+                            colher de sopa de manteiga gelada e aprovoveite! Fica DELICIOSO!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row mt-2">
+                    <div class="col-2">
+                        <a class="btn btn-info" href="editar-receita.html">Editar</a>
+                        <button class="btn btn-danger">Deletar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="comment-alert-delete" class="alert alert-success alert-dismissible fade show" role="alert"
+             style="display: none">
+            <strong>Sucesso,</strong> comentário apagado.
+
+            <button type="button" class="btn-close close" data-dismiss="alert" aria-label="Close"
+                    aria-hidden="true"></button>
+        </div>
+
+        <div class="card m-3 shadow">
+            <div class="card-header">
+                Comentários
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label for="addcomment">Comentário</label>
+                        <textarea class="form-control" id="addcomment" rows="3" required></textarea>
+
+                        <button type="submit" class="btn btn-success mt-2" style="float: right">Enviar</button>
+                    </div>
+                </form>
+
+                <div class="col-12" style="margin-top: 75px">
+                    <div class="row text-right">
+                        <span class="text-muted justify-content-end">Publicado em: 18/03/2022</span>
+                    </div>
+                    <div class="form-group d-flex">
+                        <i style="font-size: 50px; margin-right: 12px" class="bi bi-person-circle"></i>
+                        <textarea class="form-control" id="comment" rows="3" disabled>Receita deliciosa, todo mundo aqui em casa adorou</textarea>
+
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#comment-delete-modal">Deletar
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1">Anterior</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#">Próxima</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="mt-5">
+            <a class="btn btn-warning" href="receitas-index.html">Voltar</a>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="comment-delete-modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>Excluir Item</h4>
+
+                    <button type="button" class="btn-close close" data-dismiss="modal" aria-label="Close"
+                            aria-hidden="true"></button>
+                </div>
+                <div class="modal-body">
+                    Deseja realmente excluir este item?
+                </div>
+                <div class="modal-footer">
+                    <button id="comment-delete" type="button" class="btn btn-primary" data-dismiss="modal">Sim</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Não</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+
+<footer class="mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <img src="img/footer.png" alt="footer" style="width:125px">
+            </div>
+            <div class="col-sm" style="margin-top: 50px; text-align: center">
+                Sistema desenvolvido por:
+                <a style="color: white !important;" href="https://github.com/camilaesouza">cahmomila</a>
+            </div>
+            <div class="col-sm" style="margin-top: 50px; text-align: center">
+                © 2022 Copyright Overcooked recipes
+            </div>
+            <div class="text-right">
+                <a href="#">Voltar ao topo</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
+
+<script>
+    $('#comment-delete').click(function () {
+        $('#comment-delete-modal').modal('hide');
+        $('#comment-alert-delete').show('slow');
+    });
+</script>
